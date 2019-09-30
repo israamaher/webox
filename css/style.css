@@ -1,0 +1,723 @@
+body
+{
+    font-family: 'Poppins', sans-serif;
+     transition: all 1s;
+}
+.container
+{
+    padding: 0px;
+}
+.home
+{
+    height: 100vh;
+    background-image: url(../image/photos/transparent-bg.png) ;
+    position: relative;
+  overflow: hidden;
+}
+
+.navbar-nav li
+{
+    padding: 5px
+}
+
+
+.navbar-brand img
+
+{
+    height: 35px;
+    width: 120px;
+   
+}
+.nav-link
+{
+    color: black ! important ;
+}
+
+.home1
+{
+    margin-top: 200px;
+    animation: fade-in-bottom ;
+    animation-duration: 2s;
+}
+.home h1
+{
+    font-size: 50px;
+}
+.home h2
+{
+    font-size: 40px;
+}
+.home button 
+{
+    background-color:lightgreen;
+    border-radius: 10%;
+    margin: 20px;
+}
+.pen
+{
+    height: 450px;
+    position: absolute;
+    bottom: 20px;
+    right: 200px;
+    animation-name:  slide-in-right ;
+    animation-duration: 3s;
+    
+}
+
+.bottomright
+{
+    position: absolute;
+    bottom: -150px;
+    right: -400px;
+    animation-name:  slide-in-right ;
+    animation-duration: 3s;
+    
+    
+}
+.
+.top
+{
+    
+    position: absolute;
+    top: -600px;
+    right: 900px;
+    animation-name: slide-in-left ;
+    animation-duration: 3s ;
+}
+.green
+{
+    height: 400px;
+    position: absolute;
+    top:-20px;
+    right: 0px;
+    animation-name:  slide-in-right ;
+    animation-duration: 3s;
+    
+}
+
+.topleft
+{
+    height: 380px;
+    position: absolute;
+    top: 80px;
+    left:-190px;
+      animation-name: slide-in-left ;
+    animation-duration: 3s ;
+}
+
+.papers
+{
+    height: 800px;
+    position: absolute ;
+    top: 300px;
+    left:-300px;
+      animation-name: slide-in-left ;
+    animation-duration: 3s ;
+}
+
+
+
+
+
+
+@-webkit-keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+
+
+
+@-webkit-keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+            transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+            transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+
+
+
+
+
+
+@-webkit-keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+
+
+
+
+.serves
+{
+     animation: fade-in-bottom ;
+    animation-duration: 2s;
+}
+
+.our
+{
+    padding: 100px;
+    text-align: center;
+    font-size: 40px;
+}
+.serveses h3
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.serveses p
+{
+    font-size: 15px;
+    color: lightgray;
+}
+
+.serves h4
+{
+    position: relative;
+    font-size: 40px;
+}
+
+
+.serves h4:after {
+
+    content: " ";
+    background-color: lightgreen ;
+    position: absolute;
+    bottom: -10px;
+    left: 630px;
+    height: 5px;
+    width: 80px;
+}
+.serves h4:before {
+
+    content: " ";
+    background-color: lightgray;
+    position: absolute;
+    bottom: -10px;
+    left: 550px;
+    height: 0.5px;
+    width: 230px;
+}
+
+
+
+
+
+.serveses
+{
+    padding: 20px;
+    
+}
+
+
+.about
+{
+    background-image: url(../image/photos/parallax1.jpg) ;
+    height: 600px;
+    text-align: center;
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+}
+.cont
+{
+    padding-top: 300px;
+}
+
+.about button 
+{
+    background-color: transparent;
+    padding: 10px;
+    border: 1px solid #fff;
+    width: 150px;
+    border-radius: 20px;
+    color: white;
+    margin: 30px;
+}
+
+.layer
+{
+    background-image: url(../image/photos/counter.jpg);
+    padding: 80px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.layer h3
+{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.layer2
+{
+    margin-top: 120px;
+}
+
+
+
+
+.work h4
+{
+    position: relative;
+    font-size: 40px;
+}
+
+
+.work h4:after {
+
+    content: " ";
+    background-color: lightgreen ;
+    position: absolute;
+    bottom: -10px;
+    left: 430px;
+    height: 5px;
+    width: 80px;
+}
+.work h4:before {
+
+    content: " ";
+    background-color: lightgray;
+    position: absolute;
+    bottom: -10px;
+    left: 350px;
+    height: 0.5px;
+    width: 230px;
+}
+
+
+
+
+
+.work
+{
+    padding: 200px;
+}
+
+
+.nav-pills .nav-link.active
+{
+    background-color: crimson   ! important ;
+}
+
+.navwork1
+{
+    border-radius: 40px ! important ;
+    border: 1px solid lightgrey ;
+    margin: 5px ;
+    color: lightgray ! important ;
+}
+.navwork
+{
+    justify-content: center;
+}
+
+.t
+{
+    margin-top: -180px;
+}
+
+.t1
+{
+    margin-top: 30px;
+}
+.t2
+{
+    margin-top: -80px;
+    
+}
+
+
+.t3
+{
+    margin-top: 20px;
+}
+.t4
+{
+    margin-top: -110px;
+}
+.t5
+{
+    margin-top: -100px;
+}
+.t6
+{
+    margin-top: 20px;
+}
+
+.t7
+{
+    margin-top: -50px;
+}
+
+
+
+
+
+
+
+
+
+
+.client
+{
+    background-color: #00000008;
+    padding: 100px;
+}
+
+
+
+h5
+{
+    position: relative;
+    font-size: 40px;
+}
+
+
+h5:after {
+
+    content: " ";
+    background-color: lightgreen ;
+    position: absolute;
+    bottom: -10px;
+    left: 400px;
+    height: 5px;
+    width: 80px;
+}
+h5:before {
+
+    content: " ";
+    background-color: lightgray;
+    position: absolute;
+    bottom: -10px;
+    left: 300px;
+    height: 0.5px;
+    width: 370px;
+}
+
+.price
+{
+    padding-bottom: 100px;
+}
+
+.shap
+{
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    position: relative;
+}
+
+
+
+
+
+
+.shap p
+{
+    padding: 50px;
+    color: lightgray;
+    font-size: 16px;
+    
+    
+}
+
+.circle
+{
+    background-color: cadetblue;
+    border-radius: 50% ;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: -20px;
+    left: 140px;
+}
+
+
+
+.circle1
+{
+    background-color:lightgreen;
+    border-radius: 50% ;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: -20px;
+    left: 140px;
+}
+
+.circle2
+{
+    background-color: lightcoral;
+    border-radius: 50% ;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: -20px;
+    left: 140px;
+}
+
+.imshap
+{
+    border-radius: 50% ;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: -60px;
+    left: 110px;
+}
+
+
+
+.shap1
+{
+    border: 1px solid lightgrey ;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+}
+
+
+
+
+.line
+{
+    background-color: rgba(95,158,180,0.8) ;
+    color: white;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: all 1s ;
+}
+
+.shap1:hover .line
+{
+    opacity: 1 ;
+}
+ .btn1
+{
+    background-color: cadetblue;
+    color: white;
+}
+
+
+ .btn2
+{
+    background-color:lightgreen;
+    color: white;
+}
+
+
+ .btn3
+{
+    background-color: lightcoral;
+    color: white;
+}
+
+
+
+.team h4
+{
+    position: relative;
+    font-size: 40px;
+}
+
+
+.team h4:after {
+
+    content: " ";
+    background-color: lightgreen ;
+    position: absolute;
+    bottom: -10px;
+    left: 430px;
+    height: 5px;
+    width: 80px;
+}
+.team h4:before {
+
+    content: " ";
+    background-color: lightgray;
+    position: absolute;
+    bottom: -10px;
+    left: 350px;
+    height: 0.5px;
+    width: 230px;
+}
+
+
+
+
+
+
+
+.team
+{
+    background-color:  #00000008 ;
+    padding: 100px;
+
+    
+    
+}
+.team1 img
+{
+    width: 100%;
+}
+
+.team1
+{
+    background-color: white;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.contact
+{
+    padding: 100px;
+}
+
+.ic1
+{
+    background-color: cadetblue;
+    border-radius: 50%;
+    color: white;
+    padding: 20px ;
+    width: 50px;
+    
+}
+
+
+.ic2
+{
+    background-color:lightgreen;
+    border-radius: 50%;
+    color: white;
+    padding: 20px ;
+    width: 50px;
+    
+}
+
+.ic3
+{
+    background-color: lightcoral;
+    border-radius: 50%;
+    color: white;
+    padding: 20px ;
+    width: 50px;
+    
+}
+
+
+.ic4
+{
+    background-color: orange;
+    border-radius: 50%;
+    color: white;
+    padding: 20px ;
+    width: 50px;
+    
+}
+
+.contact h3
+{
+    font-size: 20px;
+    font-weight: bolder;
+    padding-left: 10px;
+}
+
+.contact p
+{
+    font-size: 14px;
+    color: lightgray;
+    padding-left: 10px;
+}
+.contact form
+{
+    width: 60%;
+   margin: auto;
+    margin-top: 100px;
+}
+.form-control
+{
+    border-bottom: 1px solid #000 ;
+}
+
+.hei
+{
+    height: 200px;
+}
+
+.btn4
+{
+    background-color: lightgreen;
+    color: white;
+    width: 100%;
+}
